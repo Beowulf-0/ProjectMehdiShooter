@@ -4,8 +4,8 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/Mehdi/source/repos/ProjectMehdiShooter/Content/player_static.png</File>
-    <File>C:/Users/Mehdi/source/repos/ProjectMehdiShooter/Content/player.png</File>
+    <File>C:/Users/Wahad/Documents/ProjectMehdiShooter/Content/player_static.png</File>
+    <File>C:/Users/Wahad/Documents/ProjectMehdiShooter/Content/player.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

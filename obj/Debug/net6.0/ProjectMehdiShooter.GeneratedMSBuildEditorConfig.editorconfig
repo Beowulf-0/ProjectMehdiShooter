@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjectMehdiShooter
-build_property.ProjectDir = C:\Users\Mehdi\source\repos\ProjectMehdiShooter\
+build_property.ProjectDir = C:\Users\Wahad\Documents\ProjectMehdiShooter\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

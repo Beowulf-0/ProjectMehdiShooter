@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "KvooR4RHnUAWDd2tt72gxWv/kH5UVpF85km1+8N0CA0I9RC+giKOoYeeFlNkpY+o0QVi7rpJESNHbmrwepsTpg==",
+  "dgSpecHash": "a2XMZA5XjQA5i8KvSuT8M0nfsgziM+VNnr2lDBQ302NvAtGyYUTBEi3fScaBOOKzNUPQZUWyV+w8q5GZZkeDGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mehdi\\source\\repos\\ProjectMehdiShooter\\ProjectMehdiShooter.csproj",
+  "projectFilePath": "C:\\Users\\Wahad\\Documents\\ProjectMehdiShooter\\ProjectMehdiShooter.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mehdi\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\Mehdi\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\Wahad\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\Wahad\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
   "logs": []
 }

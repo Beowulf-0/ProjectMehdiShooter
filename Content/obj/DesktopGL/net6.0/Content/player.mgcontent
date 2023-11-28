@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Mehdi/source/repos/ProjectMehdiShooter/Content/player.png</SourceFile>
-  <SourceTime>2023-11-26T22:00:05.3995369+01:00</SourceTime>
-  <DestFile>C:/Users/Mehdi/source/repos/ProjectMehdiShooter/Content/bin/DesktopGL/Content/player.xnb</DestFile>
-  <DestTime>2023-11-26T22:02:20.3105032+01:00</DestTime>
+  <SourceFile>C:/Users/Wahad/Documents/ProjectMehdiShooter/Content/player.png</SourceFile>
+  <SourceTime>2023-11-27T10:53:02.9246153+01:00</SourceTime>
+  <DestFile>C:/Users/Wahad/Documents/ProjectMehdiShooter/Content/bin/DesktopGL/Content/player.xnb</DestFile>
+  <DestTime>2023-11-27T11:32:38.4374689+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

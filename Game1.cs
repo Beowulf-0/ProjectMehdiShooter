@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace ProjectMehdiShooter
 {
@@ -9,9 +11,9 @@ namespace ProjectMehdiShooter
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
-        
+        //MovingSprite _sprite;
 
-        Sprite _sprite;
+        //List<MovingSprite> sprites;
 
         public Game1()
         {
@@ -33,7 +35,14 @@ namespace ProjectMehdiShooter
 
             // TODO: use this.Content to load your game content here
             Texture2D _texture = Content.Load<Texture2D>("player_static");
-            _sprite = new Sprite(_texture, Vector2.Zero);
+            //_sprite = new MovingSprite(_texture, Vector2.Zero, 1f);
+
+            /*sprites = new List<MovingSprite>();
+
+            for(int i = 0; i < 10; i++)
+            {
+                sprites.Add(new MovingSprite(_texture, new Vector2(0, 10*i), i));
+            }*/
         }
 
         protected override void Update(GameTime gameTime)
@@ -42,6 +51,31 @@ namespace ProjectMehdiShooter
                 Exit();
 
             // TODO: Add your update logic here
+            //_sprite.Update();
+
+            /*foreach(MovingSprite sprite in sprites)
+             {
+                 sprite.Update();
+             }*/
+
+            //Input
+
+            if (Keyboard.GetState().IsKeyDown(Keys.Z))
+            {
+                Debug.WriteLine("Z key pressed");
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.Q))
+            {
+                Debug.WriteLine("Q key pressed");
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.S))
+            {
+                Debug.WriteLine("S key pressed");
+            }
+            if (Keyboard.GetState().IsKeyDown(Keys.D))
+            {
+                Debug.WriteLine("D key pressed");
+            }
 
             base.Update(gameTime);
         }
@@ -52,7 +86,12 @@ namespace ProjectMehdiShooter
 
             // TODO: Add your drawing code here
             _spriteBatch.Begin(samplerState : SamplerState.PointClamp);
-            _spriteBatch.Draw(_texture, new Rectangle(100, 100, 100, 200), Color.Red);
+            //_spriteBatch.Draw(_sprite.texture, _sprite.rect, Color.Red);
+            /*foreach (MovingSprite sprite in sprites)
+            {
+                _spriteBatch.Draw(sprite.texture, sprite.rect, Color.Red);
+            }*/
+
             _spriteBatch.End();
             base.Draw(gameTime);
         }
